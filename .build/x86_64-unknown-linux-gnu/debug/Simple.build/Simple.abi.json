@@ -1,0 +1,147 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Simple"
+    },
+    {
+      "kind": "Function",
+      "name": "progress",
+      "printedName": "progress(_:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Void",
+          "printedName": "()"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "Array",
+          "printedName": "[Swift.Float]",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Float",
+              "printedName": "Swift.Float",
+              "usr": "s:Sf"
+            }
+          ],
+          "usr": "s:Sa"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:6Simple8progressyySaySfGF",
+      "mangledName": "$s6Simple8progressyySaySfGF",
+      "moduleName": "Simple",
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "Function",
+      "name": "toASCII",
+      "printedName": "toASCII(_:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Array",
+          "printedName": "[Swift.Float]",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Float",
+              "printedName": "Swift.Float",
+              "usr": "s:Sf"
+            }
+          ],
+          "usr": "s:Sa"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "Array",
+          "printedName": "[Swift.String]",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "usr": "s:Sa"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:6Simple7toASCIIySaySfGSaySSGF",
+      "mangledName": "$s6Simple7toASCIIySaySfGSaySSGF",
+      "moduleName": "Simple",
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "Function",
+      "name": "bubble",
+      "printedName": "bubble(_:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Void",
+          "printedName": "()"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "Array",
+          "printedName": "[Swift.String]",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "usr": "s:Sa"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:6Simple6bubbleyySaySSGF",
+      "mangledName": "$s6Simple6bubbleyySaySSGF",
+      "moduleName": "Simple",
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "Var",
+      "name": "unsortedString",
+      "printedName": "unsortedString",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Array",
+          "printedName": "[Swift.String]",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "usr": "s:Sa"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:6Simple14unsortedStringSaySSGvp",
+      "mangledName": "$s6Simple14unsortedStringSaySSGvp",
+      "moduleName": "Simple",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "hasStorage": true
+    }
+  ],
+  "json_format_version": 6
+}

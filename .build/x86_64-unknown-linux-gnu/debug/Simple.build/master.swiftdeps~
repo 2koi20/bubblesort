@@ -1,0 +1,7 @@
+version: "Swift version 5.6.1 (swift-5.6.1-RELEASE)"
+options: "bb4a94a12ff7ec22b2e1f1ade65daf121ef7715d8d60c7fdd4f1dc513cb662d4"
+build_start_time: [1665190728, 600813865]
+build_end_time: [1665190735, 378044128]
+inputs:
+  "/home/khoi-pham/sorts/bubble/bubble.swift": !private [1665190688, 120226144]
+  "/home/khoi-pham/sorts/bubble/main.swift": !private [1665190724, 215856790]
